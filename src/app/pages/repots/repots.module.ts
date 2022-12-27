@@ -10,6 +10,9 @@ import { AdminReportComponent } from './admin-report/admin-report.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    AdminReportComponent
   ]
 })
 export class RepotsModule { }

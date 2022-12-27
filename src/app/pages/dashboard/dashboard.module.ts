@@ -10,6 +10,9 @@ import { AnalyticsComponent } from './analytics/analytics.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports : [
+    AnalyticsComponent
   ]
 })
 export class DashboardModule { }

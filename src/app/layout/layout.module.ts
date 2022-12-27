@@ -12,6 +12,9 @@ import { TemplateComponent } from './template/template.component';
   imports: [
     CommonModule,
     LayoutRoutingModule
+  ],
+  exports : [
+    TemplateComponent
   ]
 })
 export class LayoutModule { }
