@@ -12,4 +12,6 @@ export class AdminReportComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  name: string = 'Rav';
+
 }
