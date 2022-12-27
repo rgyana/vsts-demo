@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { LayoutRoutingModule } from './layout-routing.module';
+import { ComponentsModule } from './components/components.module';
 import { TemplateComponent } from './template/template.component';
 
 
@@ -11,10 +12,10 @@ import { TemplateComponent } from './template/template.component';
   ],
   imports: [
     CommonModule,
-    LayoutRoutingModule
+    LayoutRoutingModule,
+    CommonModule,
+    ComponentsModule
   ],
-  exports : [
-    TemplateComponent
-  ]
+  exports : [TemplateComponent]
 })
 export class LayoutModule { }
